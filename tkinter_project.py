@@ -7,3 +7,6 @@ myLabel = Label(root, text="Hello word!")
 myLabel.pack()
 
 
+
+
+root.mainloop()
