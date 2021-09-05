@@ -23,14 +23,14 @@ def button_multiply():
 #define btns
 
 btn_1 = Button(root, text="1", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="2", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="3", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="4", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="5", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="6", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="7", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="8", padx=40,pady=20, command=button_add)
-btn_1 = Button(root, text="9", padx=40,pady=20, command=button_add)
+btn_2 = Button(root, text="2", padx=40,pady=20, command=button_add)
+btn_3 = Button(root, text="3", padx=40,pady=20, command=button_add)
+btn_4 = Button(root, text="4", padx=40,pady=20, command=button_add)
+btn_5 = Button(root, text="5", padx=40,pady=20, command=button_add)
+btn_6 = Button(root, text="6", padx=40,pady=20, command=button_add)
+btn_7 = Button(root, text="7", padx=40,pady=20, command=button_add)
+btn_8 = Button(root, text="8", padx=40,pady=20, command=button_add)
+btn_9 = Button(root, text="9", padx=40,pady=20, command=button_add)
 btn_0 = Button(root, text="0", padx=40,pady=20, command=button_add)
 
 
