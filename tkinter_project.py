@@ -20,15 +20,28 @@ def button_divide():
 def button_multiply():
     return
 
+#define btns
+
+btn_1 = Button(root, text="1", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="2", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="3", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="4", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="5", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="6", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="7", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="8", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="9", padx=40,pady=20, command=button_add)
+btn_0 = Button(root, text="0", padx=40,pady=20, command=button_add)
 
 
-btn_1 = Button(root, text="+", padx=40,pady=20, command=button_add)
-btn_2 = Button(root, text="-", padx=40,pady=20, command=button_subtract)
-btn_3 = Button(root, text="/", padx=40,pady=20, command=button_divide)
-btn_4 = Button(root, text="X", padx=40,pady=20, command=button_multiply)
+btn_add = Button(root, text="+", padx=40,pady=20, command=button_add)
+btn_sub = Button(root, text="-", padx=40,pady=20, command=button_subtract)
+btn_div = Button(root, text="/", padx=40,pady=20, command=button_divide)
+btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
 
 mybtn = Button(root, text="enter your number", command =myClick)
 
+#put btns on screeen
 
 
 
