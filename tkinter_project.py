@@ -42,7 +42,20 @@ btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
 mybtn = Button(root, text="enter your number", command =myClick)
 
 #put btns on screeen
-
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
+btn_1.grid()
 
 
 root.mainloop()
