@@ -44,21 +44,26 @@ btn_eql = Button(root, text="=", padx=40,pady=20, command=button_multiply)
 
 
 
-#put btns on screeen
-btn_1.grid()
-btn_2.grid()
-btn_3.grid()
-btn_4.grid()
-btn_5.grid()
-btn_6.grid()
-btn_7.grid()
-btn_8.grid()
-btn_9.grid()
-btn_0.grid()
-btn_add.grid()
-btn_sub.grid()
-btn_div.grid()
-btn_mul.grid()
+#put btns on the screeen
+btn_1.grid(row=, column=)
+btn_2.grid(row=, column=)
+btn_3.grid(row=, column=)
+btn_4.grid(row=, column=)
+btn_5.grid(row=, column=)
+btn_6.grid(row=, column=)
+btn_7.grid(row=, column=)
+btn_8.grid(row=, column=)
+btn_9.grid(row=, column=)
+btn_0.grid(row=, column=)
+
+
+
+btn_add.grid(row=, column=)
+btn_sub.grid(row=, column=)
+btn_div.grid(row=, column=)
+btn_mul.grid(row=, column=)
+btn_clr.grid(row=, column=)
+btn_eql.grid(row=, column=)
 
 
 root.mainloop()
