@@ -38,8 +38,10 @@ btn_add = Button(root, text="+", padx=40,pady=20, command=button_add)
 btn_sub = Button(root, text="-", padx=40,pady=20, command=button_subtract)
 btn_div = Button(root, text="/", padx=40,pady=20, command=button_divide)
 btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
+btn_clr = Button(root, text="CE", padx=40,pady=20, command=button_multiply)
+btn_eql = Button(root, text="=", padx=40,pady=20, command=button_multiply)
 
-mybtn = Button(root, text="enter your number", command =myClick)
+
 
 
 #put btns on screeen
