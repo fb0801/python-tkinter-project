@@ -45,25 +45,25 @@ btn_eql = Button(root, text="=", padx=40,pady=20, command=button_multiply)
 
 
 #put btns on the screeen
-btn_1.grid(row=, column=)
-btn_2.grid(row=, column=)
-btn_3.grid(row=, column=)
-btn_4.grid(row=, column=)
-btn_5.grid(row=, column=)
-btn_6.grid(row=, column=)
-btn_7.grid(row=, column=)
-btn_8.grid(row=, column=)
-btn_9.grid(row=, column=)
-btn_0.grid(row=, column=)
+btn_1.grid(row=3, column=0)
+btn_2.grid(row=3, column=1)
+btn_3.grid(row=3, column=2)
+btn_4.grid(row=2, column=0)
+btn_5.grid(row=2, column=1)
+btn_6.grid(row=2, column=2)
+btn_7.grid(row=1, column=0)
+btn_8.grid(row=1, column=1)
+btn_9.grid(row=1, column=2)
+btn_0.grid(row=4, column=0)
 
 
 
-btn_add.grid(row=, column=)
-btn_sub.grid(row=, column=)
-btn_div.grid(row=, column=)
-btn_mul.grid(row=, column=)
-btn_clr.grid(row=, column=)
-btn_eql.grid(row=, column=)
+btn_add.grid(row=5, column=0)
+btn_sub.grid(row=5, column=0)
+btn_div.grid(row=5, column=0)
+btn_mul.grid(row=5, column=0)
+btn_clr.grid(row=4, column=1)
+btn_eql.grid(row=5, column=1)
 
 
 root.mainloop()
