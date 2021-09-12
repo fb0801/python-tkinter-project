@@ -34,13 +34,14 @@ btn_9 = Button(root, text="9", padx=40,pady=20, command=button_add)
 btn_0 = Button(root, text="0", padx=40,pady=20, command=button_add)
 
 
+
 btn_add = Button(root, text="+", padx=40,pady=20, command=button_add)
 btn_sub = Button(root, text="-", padx=40,pady=20, command=button_subtract)
 btn_div = Button(root, text="/", padx=40,pady=20, command=button_divide)
 btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
 btn_clr = Button(root, text="CE", padx=40,pady=20, command=button_multiply)
 btn_eql = Button(root, text="=", padx=91,pady=20, command=button_multiply)
-
+btn_dot = Button(root, text='.', padx=40, pady=20, command=button_add)
 
 
 
@@ -58,12 +59,12 @@ btn_0.grid(row=4, column=0)
 
 
 
-btn_add.grid(row=5, column=0)
+btn_add.grid(row=4, column=3)
 btn_sub.grid(row=2, column=3)
-btn_div.grid(row=5, column=3)
+btn_div.grid(row=3, column=3)
 btn_mul.grid(row=1, column=3)
 btn_clr.grid(row=0, column=3, columnspan =2)
 btn_eql.grid(row=5, column=3, columnspan =2)
-
+btn_dot.grid(row=4, column=2)
 
 root.mainloop()
