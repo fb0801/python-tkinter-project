@@ -17,7 +17,10 @@ def button_clear():
     e.delete(0, END)
 
 def button_add():
-    return
+    first_number = e.get()
+    global f_num
+    f_num = int(first_number)
+    e.delete(0,END)
 
 
 def button_subtract():
@@ -28,6 +31,11 @@ def button_divide():
 
 def button_multiply():
     return
+
+def button_equal():
+    second_number = e.get()
+    e.delete(0,END)
+    e.insert(0, f_num + int(second_number))
 
 #define btns
 
@@ -49,7 +57,7 @@ btn_sub = Button(root, text="-", padx=40,pady=20, command=button_subtract)
 btn_div = Button(root, text="/", padx=40,pady=20, command=button_divide)
 btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
 btn_clr = Button(root, text="CE", padx=90,pady=20, command=button_clear)
-btn_eql = Button(root, text="=", padx=91,pady=20, command=button_multiply)
+btn_eql = Button(root, text="=", padx=91,pady=20, command=button_equal)
 btn_dot = Button(root, text='.', padx=40, pady=20, command=button_add)
 
 
