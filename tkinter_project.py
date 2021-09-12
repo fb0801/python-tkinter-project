@@ -10,8 +10,10 @@ e.grid(row=0,column=0, columnspan=3, padx=10, pady=10)
 def button_click(number):
     #e.delete(0,END) #delete what alredy there
     current = e.get()
-    e.delete(0, END)
     e.insert(0, str(current) + str(number) #add it to the box
+
+def button_clear():
+    e.delete(0, END)
 
 def button_add():
     return
@@ -45,7 +47,7 @@ btn_add = Button(root, text="+", padx=40,pady=20, command=button_add)
 btn_sub = Button(root, text="-", padx=40,pady=20, command=button_subtract)
 btn_div = Button(root, text="/", padx=40,pady=20, command=button_divide)
 btn_mul = Button(root, text="X", padx=40,pady=20, command=button_multiply)
-btn_clr = Button(root, text="CE", padx=90,pady=20, command=button_multiply)
+btn_clr = Button(root, text="CE", padx=90,pady=20, command=lambda: button_clear)
 btn_eql = Button(root, text="=", padx=91,pady=20, command=button_multiply)
 btn_dot = Button(root, text='.', padx=40, pady=20, command=button_add)
 
