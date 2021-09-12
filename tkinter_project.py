@@ -63,7 +63,7 @@ btn_add.grid(row=4, column=3)
 btn_sub.grid(row=2, column=3)
 btn_div.grid(row=3, column=3)
 btn_mul.grid(row=1, column=3)
-btn_clr.grid(row=0, column=3, columnspan =2)
+btn_clr.grid(row=5, column=1, columnspan =2)
 btn_eql.grid(row=5, column=3, columnspan =2)
 btn_dot.grid(row=4, column=2)
 
