@@ -9,7 +9,8 @@ e.grid(row=0,column=0, columnspan=3, padx=10, pady=10)
 
 def button_click(number):
     #e.delete(0,END) #delete what alredy there
-    e.insert(0,number) #add it to the box
+    current = e.get()
+    e.insert(0, str(current) + str(number) #add it to the box
 
 def button_add():
     return
