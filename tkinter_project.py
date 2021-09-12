@@ -22,16 +22,16 @@ def button_multiply():
 
 #define btns
 
-btn_1 = Button(root, text="1", padx=40,pady=20, command=button_click)
-btn_2 = Button(root, text="2", padx=40,pady=20, command=button_click)
-btn_3 = Button(root, text="3", padx=40,pady=20, command=button_click)
-btn_4 = Button(root, text="4", padx=40,pady=20, command=button_click)
-btn_5 = Button(root, text="5", padx=40,pady=20, command=button_click)
-btn_6 = Button(root, text="6", padx=40,pady=20, command=button_click)
-btn_7 = Button(root, text="7", padx=40,pady=20, command=button_click)
-btn_8 = Button(root, text="8", padx=40,pady=20, command=button_click)
-btn_9 = Button(root, text="9", padx=40,pady=20, command=button_click)
-btn_0 = Button(root, text="0", padx=40,pady=20, command=button_click)
+btn_1 = Button(root, text="1", padx=40,pady=20, command=lambda: button_click(1))
+btn_2 = Button(root, text="2", padx=40,pady=20, command=lambda: button_click(2))
+btn_3 = Button(root, text="3", padx=40,pady=20, command=lambda: button_click(3))
+btn_4 = Button(root, text="4", padx=40,pady=20, command=lambda: button_click(4))
+btn_5 = Button(root, text="5", padx=40,pady=20, command=lambda: button_click(5))
+btn_6 = Button(root, text="6", padx=40,pady=20, command=lambda: button_click(6))
+btn_7 = Button(root, text="7", padx=40,pady=20, command=lambda: button_click(7))
+btn_8 = Button(root, text="8", padx=40,pady=20, command=lambda: button_click(8))
+btn_9 = Button(root, text="9", padx=40,pady=20, command=lambda: button_click(9))
+btn_0 = Button(root, text="0", padx=40,pady=20, command=lambda: button_click(0))
 
 
 
