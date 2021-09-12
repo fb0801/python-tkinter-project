@@ -22,16 +22,16 @@ def button_multiply():
 
 #define btns
 
-btn_1 = Button(root, text="1", padx=40,pady=20, command=button_add)
-btn_2 = Button(root, text="2", padx=40,pady=20, command=button_add)
-btn_3 = Button(root, text="3", padx=40,pady=20, command=button_add)
-btn_4 = Button(root, text="4", padx=40,pady=20, command=button_add)
-btn_5 = Button(root, text="5", padx=40,pady=20, command=button_add)
-btn_6 = Button(root, text="6", padx=40,pady=20, command=button_add)
-btn_7 = Button(root, text="7", padx=40,pady=20, command=button_add)
-btn_8 = Button(root, text="8", padx=40,pady=20, command=button_add)
-btn_9 = Button(root, text="9", padx=40,pady=20, command=button_add)
-btn_0 = Button(root, text="0", padx=40,pady=20, command=button_add)
+btn_1 = Button(root, text="1", padx=40,pady=20, command=button_click)
+btn_2 = Button(root, text="2", padx=40,pady=20, command=button_click)
+btn_3 = Button(root, text="3", padx=40,pady=20, command=button_click)
+btn_4 = Button(root, text="4", padx=40,pady=20, command=button_click)
+btn_5 = Button(root, text="5", padx=40,pady=20, command=button_click)
+btn_6 = Button(root, text="6", padx=40,pady=20, command=button_click)
+btn_7 = Button(root, text="7", padx=40,pady=20, command=button_click)
+btn_8 = Button(root, text="8", padx=40,pady=20, command=button_click)
+btn_9 = Button(root, text="9", padx=40,pady=20, command=button_click)
+btn_0 = Button(root, text="0", padx=40,pady=20, command=button_click)
 
 
 
@@ -64,7 +64,7 @@ btn_sub.grid(row=2, column=3)
 btn_div.grid(row=3, column=3)
 btn_mul.grid(row=1, column=3)
 btn_clr.grid(row=5, column=0, columnspan =2)
-btn_eql.grid(row=5, column=3, columnspan =2)
+btn_eql.grid(row=5, column=2, columnspan =2)
 btn_dot.grid(row=4, column=2)
 
 root.mainloop()
