@@ -19,23 +19,51 @@ def button_clear():
 def button_add():
     first_number = e.get()
     global f_num
+    global math
+    math = 'addition'
     f_num = int(first_number)
     e.delete(0,END)
 
 
 def button_subtract():
-    return
+     first_number = e.get()
+    global f_num
+    global math
+    math = 'subtraction'
+    f_num = int(first_number)
+    e.delete(0,END)
 
 def button_divide():
-    return
+     first_number = e.get()
+    global f_num
+    global math
+    math = 'division'
+    f_num = int(first_number)
+    e.delete(0,END)
 
 def button_multiply():
-    return
+     first_number = e.get()
+    global f_num
+    global math
+    math = 'muliplication'
+    f_num = int(first_number)
+    e.delete(0,END)
 
 def button_equal():
+    
     second_number = e.get()
     e.delete(0,END)
-    e.insert(0, f_num + int(second_number))
+    if math =="addition":
+        e.insert(0, f_num + int(second_number))
+        
+    elif math math =="subtraction":
+        e.insert(0, f_num - int(second_number))
+        
+    elif math =="muliplication":
+        e.insert(0, f_num * int(second_number))
+        
+        math =="division":
+        e.insert(0, f_num / int(second_number))
 
 #define btns
 
